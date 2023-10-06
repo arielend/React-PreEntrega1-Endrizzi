@@ -1,0 +1,20 @@
+/* Item Count */
+
+.itemCount{    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+    padding: 7px;
+    gap: 7px;
+    background-color: #000;
+    border-radius: 15px;
+
+}
+
+.counter, .addButton{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}

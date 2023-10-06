@@ -1,0 +1,35 @@
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 15px;
+    gap: 10px;
+    background-color: #000;
+    outline: 1px #FFF solid;
+    outline-offset: -3px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    transition: 300ms;
+    height: 45px;
+}
+
+.button .text {
+    color: #FFF;
+    font-weight: 700;
+    font-size: 1em;
+    transition: 400ms;
+}
+
+.iconButton{
+height: 25px;
+}
+
+.button:hover {
+background-color: #FFF;
+outline: 2px #00CCFF solid;
+}
+
+.button:hover .text {
+color: #181717;
+}
